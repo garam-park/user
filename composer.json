@@ -1,0 +1,16 @@
+{
+    "name": "Garam/User",
+    "description": "This is for educational puposed package",
+    "authors": [
+        {
+            "name": "gpark",
+            "email": "gpark@gobaesong.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Garam\\BasicComposer\\": "src/"}
+    },
+    "require": {
+        "monolog/monolog": "1.*"
+    }
+}
